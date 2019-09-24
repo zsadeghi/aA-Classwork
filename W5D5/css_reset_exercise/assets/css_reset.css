@@ -1,0 +1,20 @@
+
+
+html, body, header, nav, aside, h2, section, h1, h4, figure, figcaption, a, form, input, footer, 
+ol, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font: inherit;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img {
+  width: inherit;
+}
