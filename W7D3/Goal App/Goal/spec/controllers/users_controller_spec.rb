@@ -5,9 +5,8 @@ RSpec.describe UsersController, type: :controller do
 
     subject(:user) do
         User.create!(
-            username: "zoe_sadeghi"
-            password: "password"
-        )
+            username: "zoe_sadeghi",
+            password: "password")
     end
 
     describe "GET #show" do
@@ -47,7 +46,7 @@ RSpec.describe UsersController, type: :controller do
             expect(response). to render_template("new")
             expect(flash[:errors]).to be_present
             end
-        end
+    end
 
         context "with valid params" do
             it "redirects user to user show on success" do
