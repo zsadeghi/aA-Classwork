@@ -17,7 +17,7 @@ class UsersController < ApplicationController
         @user = User.new(users_params)
         if @user.save
             login!(@user)
-            redirect_to user_url(@user) #user show page(that displays email)
+            redirect_to user_url(@user)
         else
             render json: ['Requirements not met'], status: 412
         end
