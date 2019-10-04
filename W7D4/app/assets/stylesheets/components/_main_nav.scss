@@ -1,0 +1,52 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav li {
+  display: inline;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  padding: 30px;
+}
+
+.left-nav > ul > li {
+  padding: 20px;
+  font-family: $sans-serif;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.right-nav > ul > li {
+  padding: 20px;
+  font-family: $sans-serif;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+
+.right-nav > ul > li:last-of-type {
+  // margin: -20px;
+  
+}
+
+#subscribe-button {
+  margin: 2px;
+  background-color: peachpuff;
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background-color: #f7f7f5;
+}
+
+.left-nav span {
+
+}
+
+
+.right-nav i {
+ font-size: 20px;
+}
