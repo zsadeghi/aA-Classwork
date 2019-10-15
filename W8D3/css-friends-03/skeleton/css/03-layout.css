@@ -1,0 +1,25 @@
+/* PHASE 3: Layout */
+.content {
+  position: relative;
+  width: 910px;
+  background: white;
+  margin: 0 auto;
+  min-height: 1000px;
+  border: 1px solid peachpuff;
+}
+
+.content-sidebar{
+  float: left;
+  min-height: 200px;
+  padding: 20px;
+  width: 200px;
+  border: 1px solid peachpuff;
+}
+
+.content-main{
+  float: right;
+  min-height: 200px;
+  padding: 20px;
+  width: 620px;
+  border: 1px solid peachpuff;
+}
